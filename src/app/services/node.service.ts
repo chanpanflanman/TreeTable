@@ -10,5 +10,6 @@ export class NodeService {
 
   getFilesystem() {
     return this.http.get<any>("http://localhost:3001/tree-table");
+
   }
 }
