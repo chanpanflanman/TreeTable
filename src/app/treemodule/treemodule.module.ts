@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TableComponent } from './table/table.component';
 import { TreeTableModule } from 'primeng/treetable';
+import { ButtonModule } from 'primeng/button';
+
 
 
 @NgModule({
@@ -10,7 +12,8 @@ import { TreeTableModule } from 'primeng/treetable';
   ],
   imports: [
     CommonModule,
-    TreeTableModule
+    TreeTableModule,
+    ButtonModule
   ]
 })
 export class TreemoduleModule { }

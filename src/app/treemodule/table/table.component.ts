@@ -20,7 +20,8 @@ export class TableComponent {
       this.cols = [
           { field: 'name', header: 'Name' },
           { field: 'size', header: 'Size' },
-          { field: 'type', header: 'Type' }
+          { field: 'type', header: 'Type' },
+          // { header: 'Action' }
       ];
   }
 }

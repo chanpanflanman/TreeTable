@@ -9,6 +9,6 @@ export class NodeService {
   constructor( private http: HttpClient) { }
 
   getFilesystem() {
-    return this.http.get<any>("http://localhost:3000/table");
+    return this.http.get<any>("http://localhost:3001/tree-table");
   }
 }

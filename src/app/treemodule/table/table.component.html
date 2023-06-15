@@ -6,6 +6,7 @@
                 <th *ngFor="let col of columns">
                     {{ col.header }}
                 </th>
+                <th class="action">Action</th>
             </tr>
         </ng-template>
         <ng-template pTemplate="body" let-rowNode let-rowData="rowData" let-columns="columns">
@@ -13,6 +14,10 @@
                 <td *ngFor="let col of columns; let i = index">
                     <p-treeTableToggler [rowNode]="rowNode" *ngIf="i === 0"></p-treeTableToggler>
                     {{ rowData[col.field] }}
+                </td>
+                <td class="buttonSpc">
+                    <p-button>Delete</p-button>
+                    <p-button>Edit</p-button>
                 </td>
             </tr>
         </ng-template>
