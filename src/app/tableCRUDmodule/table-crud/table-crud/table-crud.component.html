@@ -1,0 +1,63 @@
+<p-button (onClick)="showForm()" class="move" styleClass="p-button-success">Add</p-button>
+<div class="crudContainer w-9 shadow-3">
+    <p-table [columns]="cols" [value]="products" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th *ngFor="let col of columns">
+                    {{ col.header }}
+                </th>
+                <th class="actionHead">Action</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns">
+            <tr>
+                <td *ngFor="let col of columns">
+                    <div *ngIf="col.header != 'Price'; else elseBlock">
+                        {{ rowData[col.field] }}
+                    </div>
+                    <ng-template #elseBlock>
+                        {{ rowData[col.field] | currency:'USD':'symbol':'2.0' }}
+                    </ng-template>
+                </td>
+                <td>
+                    <div class="flexButtons">
+                        <p-button (onClick)="editRow(rowData)">Edit</p-button>
+                        <p-button styleClass="p-button-danger" (onClick)="deleteRow(rowData)">Delete</p-button>
+                    </div>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
+
+<p-dialog header="Fill row details" [(visible)]="visible" [style]="{ width: '50vw', height: '300px' }" [modal]="true"
+    [draggable]="false" [resizable]="false">
+    <form [formGroup]="modalForm" (ngSubmit)="postToTable()">
+        <div class="formContainer">
+            <div class="formControlContainer">
+                <label for="code">Code</label>
+                <input type="text" name="code" pInputText formControlName="code">
+            </div>
+            <div class="formControlContainer">
+                <label for="name">Name</label>
+                <input type="text" name="name" pInputText formControlName="name">
+            </div>
+            <div class="formControlContainer">
+                <label for="category">Category</label>
+                <input type="text" name="category" pInputText formControlName="category">
+            </div>
+            <div class="formControlContainer">
+                <label for="quantity">Quantity</label>
+                <input type="number" name="quantity" pInputText formControlName="quantity">
+            </div>
+            <div class="formControlContainer">
+                <label for="price">Price</label>
+                <input type="number" name="price" pInputText formControlName="price">
+            </div>
+            <div class="pbut">
+                <p-button type="submit" styleClass="p-button-secondary" *ngIf="showAdd">Add</p-button>
+                <p-button type="button" styleClass="p-button-secondary" *ngIf="showUpdate" (onClick)="updateRow()">Update</p-button>
+            </div>
+        </div>
+    </form>
+</p-dialog>
