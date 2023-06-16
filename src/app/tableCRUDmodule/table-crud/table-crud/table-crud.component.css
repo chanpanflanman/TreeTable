@@ -9,7 +9,8 @@
 }
 
 .move {
-    position: relative;
+    position: fixed;
+    margin-left: 5%;
 }
 
 .formContainer {
