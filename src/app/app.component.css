@@ -2,21 +2,14 @@
     margin: 20px auto;
     display: flex;
     justify-content: space-evenly;
-    width: 15%;
+    width: 20%;
     height: 40px;
     border-radius: 5px;
     background: #020024;
     background: linear-gradient(90deg, #020024 0%, #415e80 55%, #91c4ff 100%);
 }
 
-.backRoute {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-}
-
-.treeTableRoute {
+.linkFormat {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

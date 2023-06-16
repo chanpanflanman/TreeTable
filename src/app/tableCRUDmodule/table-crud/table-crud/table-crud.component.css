@@ -1,0 +1,34 @@
+.crudContainer {
+    margin: 20px auto;
+    display: grid;
+}
+
+.flexButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.move {
+    position: relative;
+}
+
+.formContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    row-gap: 10px;
+}
+
+.formContainer .pbut {
+    height: 80px;
+    grid-row: 4 / 5;
+    grid-column: -3 /-1;
+    justify-self: center;
+    align-self: center;
+}
+
+.formControlContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+}
