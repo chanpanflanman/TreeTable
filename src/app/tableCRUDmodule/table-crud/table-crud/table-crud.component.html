@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <p-button (onClick)="showForm()" class="move" styleClass="p-button-success">Add</p-button>
 <div class="crudContainer w-9 shadow-3">
     <p-table [columns]="cols" [value]="products" [tableStyle]="{ 'min-width': '50rem' }">
@@ -35,8 +36,8 @@
     <form [formGroup]="modalForm" (ngSubmit)="postToTable()">
         <div class="formContainer">
             <div class="formControlContainer">
-                <label for="code">Code</label>
-                <input type="text" name="code" pInputText formControlName="code">
+                <label for="codeInput">Code</label>
+                <input type="text" name="codeInput" pInputText formControlName="code">
             </div>
             <div class="formControlContainer">
                 <label for="name">Name</label>
