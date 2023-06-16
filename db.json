@@ -308,5 +308,127 @@
         }
       ]
     }
+  ],
+  "tableCRUD": [
+    {
+      "code": "f2-30fh0-g3",
+      "name": "Bamboo Watch",
+      "category": "Accessories",
+      "quantity": "20",
+      "price": 65,
+      "id": "2ert34f"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "1ef34wa"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "sOwjox4"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "9J8RwKc"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "zZCAlGw"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "QrpfQLq"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "2Dmroi8"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "eX0bQUH"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "DPT9jK3"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "Y7PTBo4"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "Nq3aSmi"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "Au3Ebnw"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "8SoAio9"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Trainer shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "jy6iJwa"
+    },
+    {
+      "code": "we-2swdf-21",
+      "name": "Tennis Shoes",
+      "category": "Clothes",
+      "quantity": 54,
+      "price": 90,
+      "id": "14jkdwa"
+    }
   ]
 }

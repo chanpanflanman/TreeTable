@@ -5,7 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
 import { TreemoduleModule } from './treemodule/treemodule.module';
-import { NodeService } from './services/node.service';
+import { TableModule } from 'primeng/table';
+import { TableCRUDModule } from './tableCRUDmodule/table-crud.module';
+import { CurrencyPipe } from '@angular/common';
 
 
 
@@ -17,9 +19,11 @@ import { NodeService } from './services/node.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    TreemoduleModule
+    TableModule,
+    TreemoduleModule,
+    TableCRUDModule
   ],
-  providers: [NodeService],
+  providers: [CurrencyPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
