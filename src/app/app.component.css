@@ -26,7 +26,7 @@ a {
 
 a:hover {
     color: #00ccff;
-    text-shadow: 1px 1px #464470;
+    text-shadow: 1px 1px 4px #FF3300;
 }
 
 a:active {

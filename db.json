@@ -383,11 +383,11 @@
       "id": "DPT9jK3"
     },
     {
-      "code": "we-2swdf-21",
-      "name": "Trainer shoes",
+      "code": "2s-9wer-tt",
+      "name": "T-shirts",
       "category": "Clothes",
-      "quantity": 54,
-      "price": 90,
+      "quantity": 234,
+      "price": 40,
       "id": "Y7PTBo4"
     },
     {
@@ -429,6 +429,14 @@
       "quantity": 54,
       "price": 90,
       "id": "14jkdwa"
+    },
+    {
+      "code": "sd-2209-as",
+      "name": "Barbies",
+      "category": "Toys",
+      "quantity": 223,
+      "price": 15,
+      "id": "md_Dcbv"
     }
   ]
 }
